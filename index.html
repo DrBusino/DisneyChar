@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <title>DisneyChar</title>
+  </head>
+  <body>
+    <header>
+      <h1>DisneyChar</h1>
+      <div class="divisor"></div>
+    </header>
+    <section id="listCard"></section>
+
+
+
+    <section id="changePage">
+<span id="backPage" class="material-symbols-outlined">
+arrow_back_ios
+</span>
+<p id="page"></p>
+<span id="forPage" class="material-symbols-outlined">
+arrow_forward_ios
+</span>
+    </section>
+
+
+    <footer>Site desenvolvido por <a href="">Pedro Casanova</a></footer>
+
+    <section hidden id="modalScreen">
+      <div id="modal">
+        <span id="closeModal" class="material-symbols-outlined"> close </span>
+        <picture id="modalPicChar"
+          ><img id="modalImgChar" src="" alt="modalImgChar" />
+          <h2 id="modalNameChar">modalNameChar</h2>
+        </picture>
+
+        <article id="modalFilmsChar">
+          <h3 id="modalFilmsCharText">Longas metragens:</h3>
+          <ul id="modalListFilmsChar"></ul>
+        </article>
+
+        <article id="modalShortsChar">
+          <h3 id="modalShortsCharText">Curtas-metragens:</h3>
+          <ul id="modalListShortsChar"></ul>
+        </article>
+
+        <article id="modalShowsChar">
+          <h3 id="modalShowsCharText">Programas de TV:</h3>
+          <ul id="modalListShowsChar"></ul>
+        </article>
+      </div>
+    </section>
+
+    <script src="/assets/script.js"></script>
+  </body>
+</html>

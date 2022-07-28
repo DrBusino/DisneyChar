@@ -1,0 +1,145 @@
+[hidden] {
+  display: none !important;
+}
+
+
+h1{
+  font-size: 500%;
+}
+
+h2{
+  font-size: 300%;
+}
+
+h3{
+  font-size: 180%;
+}
+
+h4{
+  font-size: 100%;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+div.divisor {
+  width: 50%;
+  height: 1px;
+  align-self: center;
+  background-color: black;
+}
+
+header {
+  height: fit-content;
+  width: 100vw;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+section#listCard {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+gap: 2rem;
+  background-color: rgb(106, 140, 231);
+  padding: 1rem;
+}
+
+section#listCard div.cardChar {
+  display: flex;
+  flex-direction: column;
+
+  width: 15%;
+  height: fit-content;
+  background-color: bisque;
+  padding: 1rem;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+section#listCard div.cardChar:hover{
+  cursor: pointer;
+}
+
+section#listCard div.cardChar picture.picChar{
+  max-width: 100%;
+  padding: 5px;
+}
+
+section#listCard div.cardChar picture.picChar img{
+  max-width: 100%;
+}
+
+
+
+section#listCard div.cardChar article {
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+}
+
+footer {
+  position:inherit;
+  bottom: 0;
+  align-self: center;
+}
+
+
+section#modalScreen{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(148, 146, 146, 0.342);
+}
+
+section#modalScreen div#modal{
+    background-color: aqua;
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius:30px ;
+    border-bottom-right-radius: 30px;
+    padding: 2rem;
+
+}
+
+
+section#modalScreen div#modal span#closeModal{
+  align-self: flex-end;
+  
+}
+
+section#modalScreen div#modal span#closeModal:hover{
+  cursor: pointer;
+}
+
+
+#changePage{
+   position:inherit;
+  bottom: 1;
+  align-self: center;
+  display: flex;
+
+}
